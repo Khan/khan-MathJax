@@ -104,10 +104,10 @@ print "Generated %s.js, copying files..." % kathjax_basename
 # Copy some other things
 
 dirs = [
-    'fonts/HTML-CSS/TeX/eot',
+    # 'fonts/HTML-CSS/TeX/eot',
     'fonts/HTML-CSS/TeX/otf',
-    'fonts/HTML-CSS/TeX/svg',
-    'fonts/HTML-CSS/TeX/woff',
+    # 'fonts/HTML-CSS/TeX/svg',
+    # 'fonts/HTML-CSS/TeX/woff',
     'jax/output/HTML-CSS/fonts/TeX',
 
     # Not sure what these are; they were necessary in MathJax v1 so we probably
