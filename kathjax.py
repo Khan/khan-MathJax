@@ -104,8 +104,11 @@ print "Generated %s.js, copying files..." % kathjax_basename
 # Copy some other things
 
 dirs = [
-    # 'fonts/HTML-CSS/TeX/eot',
     'fonts/HTML-CSS/TeX/otf',
+    # On mobile, these fonts just add to the download size without providing
+    # (enough) benefit to justify it. Once we drop Android 4.2, we'll be able
+    # to switch to woff, which is slightly smaller than otf.
+    # 'fonts/HTML-CSS/TeX/eot',
     # 'fonts/HTML-CSS/TeX/svg',
     # 'fonts/HTML-CSS/TeX/woff',
     'jax/output/HTML-CSS/fonts/TeX',
